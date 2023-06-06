@@ -23,7 +23,7 @@ import (
 var ErrHolePunchActive = errors.New("another hole punching attempt to this peer is active")
 
 const (
-	dialTimeout = 5 * time.Second
+	dialTimeout = 0 * time.Second
 	maxRetries  = 200
 )
 
