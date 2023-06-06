@@ -27,6 +27,7 @@ const (
 	maxRetries  = 200
 )
 
+
 // The holePuncher is run on the peer that's behind a NAT / Firewall.
 // It observes new incoming connections via a relay that it has a reservation with,
 // and initiates the DCUtR protocol with them.
